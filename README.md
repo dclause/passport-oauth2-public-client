@@ -12,11 +12,12 @@ the token endpoint and used as an alternative to HTTP Basic authentication.
 
 **You should make sure to understand the security implications to use it.**
 
+<!---
 [![npm](https://img.shields.io/npm/v/passport-oauth2-public-client.svg)](https://www.npmjs.com/package/passport-oauth2-public-client)
 [![build](https://img.shields.io/travis/dclause/passport-oauth2-public-client.svg)](https://travis-ci.org/dclause/passport-oauth2-public-client)
 [![coverage](https://img.shields.io/coveralls/dclause/passport-oauth2-public-client.svg)](https://coveralls.io/github/dclause/passport-oauth2-public-client)
 [...](https://github.com/dclause/passport-oauth2-public-client/wiki/Status)
-
+--->
 ## Install
 
 ```sh
