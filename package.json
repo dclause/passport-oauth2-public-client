@@ -1,0 +1,49 @@
+{
+  "name": "passport-oauth2-public-client",
+  "version": "0.1.2",
+  "description": "OAuth 2.0 public client authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "oauth",
+    "oauth2",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "api",
+    "client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dclause/passport-oauth2-public-client.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dclause/passport-oauth2-public-client/issues"
+  },
+  "author": {
+    "name": "Dominique Clause",
+    "email": "dom.clause@gmail.com",
+    "url": "http://www.acino.fr/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.6",
+    "mocha": "7.1.1",
+    "vows": "0.8.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib make test"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
