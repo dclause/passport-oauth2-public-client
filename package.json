@@ -20,11 +20,7 @@
   "bugs": {
     "url": "http://github.com/dclause/passport-oauth2-public-client/issues"
   },
-  "author": {
-    "name": "Dominique Clause",
-    "email": "dom.clause@gmail.com",
-    "url": "http://www.acino.fr/"
-  },
+  "author": "Dominique Clause <dom.clause@gmail.com> (http://www.acino.fr/)",
   "licenses": [
     {
       "type": "MIT",
@@ -45,5 +41,11 @@
   },
   "engines": {
     "node": ">= 0.4.0"
-  }
+  },
+  "homepage": "https://github.com/dclause/passport-oauth2-public-client#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "ISC"
 }
