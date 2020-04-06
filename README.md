@@ -5,8 +5,10 @@ OAuth 2.0 public client authentication strategy for [Passport](https://github.co
 
 This module lets you authenticate requests containing client credentials in the
 request body, as [defined](http://tools.ietf.org/html/draft-ietf-oauth-v2-27#section-2.3.1)
-by the OAuth 2.0 specification but with client_secret being optional.  These credentials are typically used protect
-the token endpoint and used as an alternative to HTTP Basic authentication.
+by the OAuth 2.0 specification but with client_secret being optional.  
+This strategy is typically used by a category of clients that are notable to reliably keep their secrets.
+
+NOTE: This strategy accepts both body and request params source. 
 
 **Warning: In most case, you want to use [passport-oauth2-client-password](https://github.com/jaredhanson/passport-oauth2-client-password). This strategy let's you authorize public client, ie clients without *secret_key*.**
 
