@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "make-node": "0.4.6",
-    "mocha": "7.1.1",
+    "mocha": "10.2.0",
     "vows": "0.8.x"
   },
   "scripts": {
